@@ -30,11 +30,11 @@ const App: React.FC = () => {
           <button><Link to="/users" style={{ textDecoration: 'none' }}>Load Users</Link></button>
           <hr />
           <Switch>
-            <Route path="/users">
-              <Users />
-            </Route>
             <Route exact path="/">
               <Register />
+            </Route>
+            <Route path="/users">
+              <Users />
             </Route>
           </Switch>
         </Router>
