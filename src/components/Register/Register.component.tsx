@@ -30,18 +30,18 @@ const Register: React.FC = () => {
                     <label htmlFor="name">
                         Enter Name
                     </label>
-                    <input name="name" id="name" type="text" size={15} onChange={eventHandle}></input>
+                    <input name="name" id="name" type="text" size={15} onChange={eventHandle}/>
                 </div>
                 <div>
                     <label htmlFor="date">
                         Enter DOB
                     </label>
-                    <input id="date" type="date"></input>
+                    <input id="date" type="date"/>
                 </div>
-                <input type='button' value="Register" onClick={submit}></input>
+                <input type='button' value="Register" onClick={submit}/>
             </form>
         </div>
     );
-}
+};
 
 export default Register;

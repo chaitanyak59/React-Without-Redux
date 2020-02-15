@@ -8,9 +8,9 @@ export interface State {
 
 export const defaultState: State = {
     users: []
-}
+};
 
 export const UsersContext = React.createContext({
     state: defaultState,
-    dispatch: (action: GlobalAction) => console.log(action) 
-})
+    dispatch: (action: GlobalAction) => console.log(action)
+});
